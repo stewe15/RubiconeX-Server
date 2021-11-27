@@ -35,5 +35,14 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Services\UserService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RubiconeX-Server.BuisnessLogic.Core\RubiconeX-Server.BuisnessLogic.Core.csproj">
+      <Project>{AAB4E00E-7E7C-49B7-97B0-FE5F43D9DFB1}</Project>
+      <Name>RubiconeX-Server.BuisnessLogic.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
